@@ -41,7 +41,6 @@ class MountainTest {
 
         assertTrue(Mountain.isMountain(new int[]{1,2,3,2,1}));
         assertTrue(Mountain.isMountain(new int[]{1,4,2,1,0}));
-
         assertFalse(Mountain.isMountain(new int[]{1,2,1,2,1}));
         assertFalse(Mountain.isMountain(new int[]{1,2,3,1,5}));
         assertFalse(Mountain.isMountain(new int[]{9,3,5,7,5}));
